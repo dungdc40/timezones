@@ -6,4 +6,4 @@
  * and open the template in the editor.
  */
 Route::get('timezones/{timezone?}', 
-  'laraveldaily\timezones\TimezonesController@index');
+  'dungdc\timezones\TimezonesController@index');

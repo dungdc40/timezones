@@ -1,4 +1,4 @@
-<?php namespace Laraveldaily\Timezones;
+<?php namespace Dungdc\Timezones;
 
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;

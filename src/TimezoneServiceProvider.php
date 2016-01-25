@@ -1,4 +1,4 @@
-<?php namespace Laraveldaily\Timezones;
+<?php namespace Dungdc\Timezones;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -22,7 +22,7 @@ class TimezoneServiceProvider extends ServiceProvider {
 	public function register()
         {
             include __DIR__.'/routes.php';
-            $this->app->make('Laraveldaily\Timezones\TimezonesController');
+            $this->app->make('Dungdc\Timezones\TimezonesController');
         }
 
 }
